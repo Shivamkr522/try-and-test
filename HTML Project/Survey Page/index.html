@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="header">
+        <header >
+            <h1 id="heading">Game Survey Form</h1>
+            <p id="heading-definition"> <em>Thanks for contributing in Survey.</em></p>
+        </header>
+    </div>
+    <div id="form-change">
+        <form id="form">
+            <div id="divs-change">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-body" placeholder="Write your Name " required>
+            </div>
+            <div id="divs-change">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-body" placeholder="Write your Email" required>
+            </div>
+            <div id="divs-change">
+                <label for="age">Age <span>(optional)</span></label>
+                <input type="age" name="age" id="age" class="form-body" placeholder="Age">
+            </div>
+            <div id="divs-change">
+                <p id="mar">On which device you like to play games?</p>
+                <select name="device" id="dropdown" class="dropdown-menu">
+                    <option disable selected value>Select Device</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="pc">PC</option>
+                </select>
+            </div>
+            <div id="divs-change">
+                <label for="gameName">Game</label>
+                <input type="text" name="game" id="game" class="form-body" placeholder="Write the game name" required>
+            </div>
+            <div id="divs-change">
+                <label for="role">Game Role</label>
+                <input type="text" name="gameRole" id="gameRole" class="form-body" placeholder="Write in-game role" required>
+            </div>
+            <div id="divs-change">
+                <p>What you like about the Game</p>
+                <textarea name="gameDescription" id="gameDescription" placeholder="Why you like the game"></textarea>
+            </div>
+            <div id="divs-change">
+                <button type="submit" id="submit" class="submitButton">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

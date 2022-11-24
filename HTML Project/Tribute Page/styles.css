@@ -1,0 +1,42 @@
+#main{
+    text-align: center;
+    background-color: gray;
+    /* font-size: 1.5rem; */
+}
+
+#title{
+    /* background-color: red; */
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+#img{
+    position: relative;
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+#img-div{
+    width: 60%;
+    position: relative;
+}
+
+#img-caption{
+    text-align: center;
+}
+
+#life{
+    align-items: center;
+    position: absolute;
+    line-height: 2rem;
+    padding:  0 25% 0;
+}
+
+#life .points{
+    text-align: left;
+    padding: .5rem;
+    margin: 1rem;
+}
