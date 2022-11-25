@@ -1,0 +1,120 @@
+
+ul{
+    list-style: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo >img{
+    width: 12%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    
+}
+
+#nav-bar{
+    width: 40rem;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    text-align: center;
+}
+
+#tagline{
+    font-size: 2rem;
+}
+
+#defintion{
+    font-size: 1.25rem;
+}
+
+#video{
+    padding: 2rem;
+}
+
+
+.review-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#first-review{
+    display: inherit;
+    flex-direction: column;
+    
+    width: 15%;
+}
+
+#second-review{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 15%;
+}
+
+#third-review{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 15%;
+}
+
+#fourth-review{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 15%;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+}
+
+#normal{
+    height: 20rem;
+    width: 20rem;
+}
+
+#customized{
+    height: 20rem;
+    width: 20rem;
+}
+
+#birthday_gift{
+    height: 20rem;
+    width: 20rem;
+}
+
+.photos{
+    height: 10rem;
+    width: 10rem;
+}
+
+form{
+    text-align: left;
+}
+
+#contact, footer{
+    background-color: #F3ECB0;
+}
+
+#contact{
+    display: block;
+}
+
+#base{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="full-page">
@@ -15,9 +16,10 @@
             </div>
             <nav id="nav-bar">
                 <ul class="nav-link">
-                    <li>What We Do</li>
-                    <li>Taste and Reviews</li>
-                    <li>Pricing</li>
+                    <li> <a href="#What-we-do">What We Do</a> </li>
+                    <li> <a href="#taste-and-reviews">Taste and Reviews</a></li>
+                    <li> <a href="#pricing">Pricing</a></li>
+                    <li> <a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,22 +28,87 @@
                 <h2>Handmade and Fresh Chocolates</h2>
             </div>
             <section id="What-we-do">
-                <div >
+                <div id="defintion">
                     <p>See the Procedure</p>
-                    <iframe id="video" src="https://youtube.com/embed/2H0tglcIKsM" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                    <div class="video">
+                        <iframe id="video" src="https://youtube.com/embed/2H0tglcIKsM" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                    </div>
                 </div>
             </section>
             <section id="taste-and-reviews">
-                <div >
-                    
+                <div class="review-section">
+                    <div id="first-review">
+                        <img src="https://static.toiimg.com/thumb/resizemode-4,width-400,msid-74007887/74007887.jpg" alt="Pic 1">
+                        <h2>Vicky</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, earum?</p>
+                    </div>
+                    <div id="second-review">
+                        <img src="https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/163696x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}" alt="Pic 2">
+                        
+                        <h2>Rocky</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugit?</p>
+                    </div>
+                    <div id="third-review">
+                        <img src="https://www.ovenfresh.in/public/storage/products/400x400/box-of-36-pralines-20210826180805.jpg" alt="Pic 3">
+                        <h2>Shivam</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut temporibus omnis harum.</p>
+                    </div>
+                    <div id="fourth-review">
+                        <img src="https://www.candyclub.com/blog/wp-content/uploads/2019/03/amirali-mirhashemian-1169805-unsplash.jpg" alt="Pic 4">
+                        <h2>RV</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est fugit eum quis.</p>
+                    </div>
                 </div>
             </section>
             <section id="pricing">
-                <div>
-                    
+                <div class="pricing">
+                    <div id="normal">
+                        <img class="photos" src="images/chocolate.png" alt="Pic1">
+                        <h2>Normal</h2>
+                        <p>$200</p>
+                    </div>
+                    <div id="customized">
+                        <img class="photos" src="images/truffle.png" alt="Pic2">
+                        <h2>Customized</h2>
+                        <p>$500</p>
+                    </div>
+                    <div id="birthday-gift">
+                        <img class="photos" src="images/chocolate-box.png" alt="Pic3">
+                        <h2>Birthday Gifts</h2>
+                        <p>$550</p>
+                    </div>
                 </div>
             </section>
-            
+            <section id="contact">
+                <form action="">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Write your name">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Write your email address">
+                    <br>
+                    <label for="remark">Queries</label>
+                    <br>
+                    <textarea name="query" id="query" placeholder="Write your feedback"></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+            </section> 
+            <footer id="foot">
+                <div id="footer">
+                    <ul id="base">
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <span>Copyright 2018, Chocolate Factory</span>
+            </footer>    
         </div>
     </div>
 </body>
